@@ -1,3 +1,19 @@
 body {
-  background-image: url(assets/img/wood_background.jpg);
+  background-image: url(../img/wood_background.jpg);
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+}
+
+main {
+  border-top: 2px solid white;
+}
+
+.search {
+  padding-top: 15px;
 }
