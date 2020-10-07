@@ -16,6 +16,8 @@ h1 {
 }
 
 main {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
 
@@ -33,4 +35,22 @@ h2 > span {
   background-color: orange;
   border-radius: 50%;
   padding: 10px;
+}
+
+.mail_letta {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.mail_non_letta {
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.titolo_mail {
+  font-weight: bold;
+}
+
+.contenuto_mail {
+  color: grey;
 }
